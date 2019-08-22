@@ -131,6 +131,16 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\basic-turkish-chicken-kebab-3274263_19-5b4ce87746e0fb00370a5025.jpg" />
+    <Content Include="Content\Images\chillox.jpg" />
+    <Content Include="Content\Images\dominos.jpg" />
+    <Content Include="Content\Images\fc9df16c219c0d46011f3ec18b6e26f6.jpg" />
+    <Content Include="Content\Images\food-blog-photos1.jpg" />
+    <Content Include="Content\Images\foog-blogging2.jpeg" />
+    <Content Include="Content\Images\Melt-in-Your-Mouth-Chuck-Roast_EXPS_CWON16_41035_C06_29_3b-696x696.jpg" />
+    <Content Include="Content\Images\recipe1.jpeg" />
+    <Content Include="Content\Images\recipe2.jpg" />
+    <Content Include="Content\Images\suultans.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
