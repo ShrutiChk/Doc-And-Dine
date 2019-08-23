@@ -1,31 +1,218 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    
 }
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <div class="whatsNewTitle">
+        <h4 class="whatsNewTitle">What's new !!</h4>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="container">
+            <div class="HomeFoodTitle">
+                <h2 class="HomeFoodTitle">Home Made Foods</h2>
+            </div>
+            <div class="HomeFoodList ">
+                <div class="foodItemBody col-md-4 mt-5 ">
+                    <div class="FoodBlock">
+                        <div class="FoodImage">
+                            <img src="~/Content/Images/basic-turkish-chicken-kebab-3274263_19-5b4ce87746e0fb00370a5025.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Chicken Kebab</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>By Afiya Zahin</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foodItemBody col-md-4 mt-5">
+                    <div class="FoodBlock2">
+                        <div class="FoodImage2">
+                            <img src="~/Content/Images/fc9df16c219c0d46011f3ec18b6e26f6.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Chicken Biriyani</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>By Mahmooda Hoque</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foodItemBody col-md-4 mt-5 ">
+                    <div class="FoodBlock2">
+                        <div class="FoodImage2">
+                            <img src="~/Content/Images/Melt-in-Your-Mouth-Chuck-Roast_EXPS_CWON16_41035_C06_29_3b-696x696.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Chuck Roast</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>By Ayman Rasel</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="container">
+            <div class="FoodTitle">
+                <h2 class="HomeFoodTitle">Restaurant Foods</h2>
+            </div>
+            <div class="HomeFoodList ">
+                <div class="foodItemBody col-md-4 mt-5">
+                    <div class="FoodBlock">
+                        <div class="FoodImage">
+                            <img src="~/Content/Images/chillox.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Chillox</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>Rating</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foodItemBody col-md-4 mt-5">
+                    <div class="FoodBlock2">
+                        <div class="FoodImage">
+                            <img src="~/Content/Images/dominos.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Dominos Pizza</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>Rating</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foodItemBody col-md-4 mt-5">
+                    <div class="FoodBlock2">
+                        <div class="FoodImage">
+                            <img src="~/Content/Images/suultans.jpg" alt="" width="260" height="200" />
+                        </div>
+                        <div class="FoodInfo">
+                            <div class="FoodTitle">
+                                <h5>Sultan's Dine</h5>
+                            </div>
+                            <div class="ChefTitle">
+                                <h6>Rating</h6>
+                            </div>
+                            <button class="ViewDetailsButton">View Details >></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    <div class="FoodTitle">
+        <h2 class="HomeFoodTitle">Blogs</h2>
     </div>
-</div>
+    <div class="row">
+        <div class="BlogItemBody col-md-6 mt-3">
+            <div class="BlogInner">
+                <div class="blogImage">
+                    <img src="~/Content/Images/food-blog-photos1.jpg" alt="blog image" width="400" height="200" />
+                    <button class="info">Read More</button>
+                </div>
+                <!--blog-img-->
+                <div class="blog-info">
+                    <div class="post-date">
+                        <time class="entry-date" datetime="2015-05-11T11:07:27+00:00">26 <span>June</span></time>
+                    </div>
+                    <ul class="post-meta">
+                        <li><i class="fa fa-user"></i>Posted by <a href="#">Lyra</a> </li>
+                        <li><i class="fa fa-comments"></i><a href="#">7 comments</a> </li>
+                    </ul>
+                    <h3 class="blogTitle"><a href="">Awesome template with lot's of features on the board!</a></h3>
+                    <p class="blogDescription">Aliquam laoreet consequat malesuada. Integer vitae diam sed dolor euismod laoreet eget ac felis erat sed elit bibendum ...</p>
+                </div>
+            </div>
+            <!--blog_inner-->
+        </div>
+        <div class="BlogItemBody col-md-6 mt-3">
+            <div class="BlogInner">
+                <div class="blogImage">
+                    <img src="~/Content/Images/foog-blogging2.jpeg" alt="blog image" width="400" height="200" />
+                    <button class="info">Read More</button>
+                </div>
+                <!--blog-img-->
+                <div class="blog-info">
+                    <div class="post-date">
+                        <time class="entry-date" datetime="2015-05-11T11:07:27+00:00">30 <span>June</span></time>
+                    </div>
+                    <ul class="post-meta">
+                        <li><i class="fa fa-user"></i>Posted by <a href="#">admin</a> </li>
+                        <li><i class="fa fa-comments"></i><a href="#">6 comments</a> </li>
+                    </ul>
+                    <h3 class="blogTitle"><a href="">Awesome template with lot's of features on the board!</a></h3>
+                    <p class="blogDescription">Aliquam laoreet consequat malesuada. Integer vitae diam sed dolor euismod laoreet eget ac felis erat sed elit bibendum ...</p>
+                </div>
+            </div>
+            <!--blog_inner-->
+        </div>
+    </div>
+    <div class="FoodTitle">
+        <h2 class="HomeFoodTitle">Recipes</h2>
+    </div>
+    <div class="row">
+        <div class="recipeBlock">
+            <div class="recipePic">
+                <img src="~/Content/Images/recipe1.jpeg" alt="avatar" />
+            </div>
+            <div class="recipeDescription">
+                <div class="recipename">
+                    <h4>Pico De Gallo</h4>
+                </div>
+                <div class="recipeWriterName">
+                    <h6>By Rebecca</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy habitant morbi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="recipeBlock2">
+            <div class="recipeDescription2">
+                <div class="recipename">
+                    <h4>Three Cup Chicken</h4>
+                </div>
+                <div class="recipeWriterName">
+                    <h6>By Arcas</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy habitant morbi.</p>
+            </div>
+            <div class="recipePic2">
+                <img src="~/Content/Images/recipe2.jpg" alt="avatar" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

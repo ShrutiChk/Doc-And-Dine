@@ -187,6 +187,313 @@ td,
 th {
   padding: 0;
 }
+
+html, body {
+    overflow-x: hidden;
+}
+.whatsNewTitle {
+    letter-spacing: .05em;
+    text-transform: none;
+    font-family: kalam,cursive;
+    text-align: center;
+    font-size: 25px;
+    color: darkorange;
+    background-color: lightgoldenrodyellow;
+}
+
+.HomeFoodTitle {
+    margin-top: -3px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    margin-bottom: 30px;
+}
+
+.FoodTitle {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    margin-bottom: 30px;
+}
+
+.HomeFoodList {
+    position: center;
+    
+}
+
+.FoodBlock{
+    width:260px;
+    
+}
+.FoodBlock2 {
+    width: 260px;
+    margin-left:-15px;
+    
+}
+
+
+.FoodImage img {
+    border: dashed;
+    border-color: darkorange;
+    transition: transform .2s;
+}
+.FoodImage2 img {
+    border: dashed;
+    border-color: darkorange;
+    transition: transform .2s;
+    
+}
+
+.FoodInfo {
+    text-align: center;
+    margin-left: -10px;
+}
+
+.FoodTitle h5 {
+    font-size: 20px;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+
+.ChefTitle h6 {
+    color: dimgray;
+    margin-top: -15px;
+    margin-left: 8px;
+}
+
+.ViewDetailsButton {
+    background-color: white;
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 8px;
+    color: darkorange;
+    border-radius: 20px;
+}
+
+.FoodImage:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+.FoodImage2:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.ViewDetailsButton:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.BlogInner {
+    position: relative;
+    margin-top: 0px;
+    background-color: #fff;
+    padding: 30px;
+    border-right: 1px #eaeaea solid;
+    width:500px;
+}
+.blogImage {
+    position: relative;
+}
+.a {
+    color: darkorange;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.blogImage img {
+    -webkit-transition: all 0.4s ease-in-out 0.5s;
+    -moz-transition: all 0.4s ease-in-out 0.5s;
+    -o-transition: all 0.4s ease-in-out 0.5s;
+    transition: all 0.4s ease-in-out 0.5s;
+}
+
+.blogImage img:hover {
+        opacity: 0.8;
+        border: 1px solid white;
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
+}
+
+.info {
+    width: 140px;
+    height: 40px;
+    background-color:white;
+    color:darkorange;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s ease;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    border: 1px;
+    border-color:darkorange;
+    border-radius:30px;
+    margin-left:200px;
+
+}
+
+.info:hover {
+    opacity: 1;
+    text-align: center;
+    background-color:darkorange;
+    color:white;
+
+}
+.post-date {
+    height: 80px;
+    width: 80px;
+    background:darkorange;
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    left: 22px;
+    margin-top: -95px;
+    padding-top: 15px;
+    border: 4px #fff solid;
+    border-radius: 10px;
+
+}
+ul {
+    display: block;
+    list-style-type:disc;
+    margin-top: 0;
+    margin-bottom: 2px;
+
+}
+.post-meta {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 12px !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.post-meta li i {
+    padding-right: 10px;
+}
+.post-meta li a {
+    margin-right: 5px;
+    color: darkorange;
+    font-size: 13px;
+}
+
+.blogTitle{
+    font-size:25px;
+   
+}
+.blogDescription {
+    font-size:12px;
+}
+.recipeBlock{
+    margin-top:20px;
+    margin-left:40px;
+}
+.recipeBlock2 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.recipePic img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+}
+.recipePic2 img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 570px;
+    position: absolute;
+    margin-top:-220px;
+}
+
+.recipeDescription {
+    background-color: lightgreen;
+    width: 600px;
+    height:200px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-left:280px;
+    margin-top:15px;
+}
+.recipeDescription2 {
+    background-color: lightblue;
+    width: 600px;
+    height: 200px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.recipePic img:hover {
+    opacity: 0.8;
+    border: 1px solid white;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.recipePic2 img:hover {
+    opacity: 0.8;
+    border: 1px solid white;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.recipeDescription:hover{
+    background-color:darkgreen;
+}
+.recipeDescription2:hover {
+    background-color: darkcyan;
+}
+
+
+.recipeDescription .recipename h4 {
+    font-size: 40px;
+    color: darkorange;
+}
+.recipeDescription .recipeWriterName h6 {
+    font-size: 20px;
+    color: darkgray;
+}
+.recipeDescription p {
+    color: black;
+    font-size: 20px;
+}
+.recipeDescription2 .recipename h4 {
+    font-size: 40px;
+    color: darkorange;
+}
+
+.recipeDescription2 .recipeWriterName h6 {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.recipeDescription2 p {
+    color: black;
+    font-size: 20px;
+}
+
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
