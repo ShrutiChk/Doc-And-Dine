@@ -76,14 +76,16 @@ a:focus {
 }
 .social{
     margin:5px;
+    padding-top:30px;
 }
 .fa {
     padding: 20px;
     font-size: 20px;
-    width: 50px;   
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 10px 2px;
+    border-radius: 20px;
 }
 
     .fa:hover {
