@@ -9,6 +9,7 @@
     <link href="~/Styles/_Layout.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Styles/footer.css" rel="stylesheet" />
 
     <title>Doc & Dine</title>
 </head>
@@ -45,7 +46,7 @@
                 </ul>
 
                 <div class="social">
-                    <div class="widget-title">
+                    <div class="widget-title"style="font-size:20px;font-style:italic">
                         Follow Us
                     </div>
                     <div class="">
@@ -63,13 +64,59 @@
         <div class="content">
 
             <ul class="list-unstyled components" style="margin:0px">
-                <li style="display: inline; float:right; padding:10px;display: block">@Html.ActionLink("Sign Up", "SignUp", "Home")</li>
-                <li style="display: inline; float:right; padding:10px;display:block;border-right: 1px solid #555;">@Html.ActionLink("Login", "Login", "Home")</li>
+                <li style="display: inline; float:right; padding:10px;display: block"><i class="fas fa-user-plus"style="padding:8px"></i>@Html.ActionLink("Sign Up", "SignUp", "Home")</li>
+                <li style="display: inline; float:right; padding:10px;display:block;border-right: 1px solid #555;"><i class="fas fa-user"style="padding:8px"></i>@Html.ActionLink("Login", "Login", "Home")</li>
 
             </ul>
 
             @RenderBody()
             <hr />
+            <div class="fusion-footer-widget-area">
+                <div class="row">
+                    <div class="columns col-md-4 mt-5">
+                        Doc & Dine (logo)
+                    </div>
+                    <div class="columns col-md-4 mt-5">
+                        <div class="row" style="font-size:30px;padding-top:30px;">
+                            SITE MAP
+                        </div>
+                        <div class="row">
+                            <div class="columns">
+                                <h4>HOME</h4>
+                                <h4>RESTAURANTS</h4>
+                                <h4>HOME MADE FOODS</h4>
+                                <h4>BLOGS</h4>
+                                <h4>RECIPES</h4>
+                            </div>
+                            <div class="columns" style="padding-left:20px;">
+                                <h4>OFFERS</h4>
+                                <h4>RESERVATIONS</h4>
+                                <h4>CONTACT</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns col-md-4 mt-5">
+                        <div class="widget-title" style="font-size:20px;font-style:italic;padding:30px;">
+                            Follow Us
+                        </div>
+                        <div class="">
+
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer" style="padding:20px">
+                    &copy;2019. Doc & Dine. All rights reserved.
+                </div>
+
+            </footer>
 
         </div>
 
