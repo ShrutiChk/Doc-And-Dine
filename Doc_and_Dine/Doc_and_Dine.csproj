@@ -136,15 +136,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\HomeMadeFood1.jpg" />
     <Content Include="Images\MuttonRezala.jpg" />
-    <Content Include="Images\Recipe Writing.jpg" />
-    <Content Include="Images\restraurant.jpg" />
     <Content Include="Images\sanwich1.jpg" />
     <Content Include="Images\ThaiSoup.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="fonts\Shink Font by Rifki %287NTypes%29.otf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -156,7 +152,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Styles\Carousel.css" />
+    <Content Include="Styles\footer.css" />
     <Content Include="Styles\_Layout.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
