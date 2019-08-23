@@ -40,6 +40,9 @@ namespace Doc_and_Dine.Controllers
         {
             return View();
         }
-
+        public ActionResult Blogs()
+        {
+            return View();
+        }
     }
 }

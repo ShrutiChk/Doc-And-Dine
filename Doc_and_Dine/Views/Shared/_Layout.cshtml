@@ -29,13 +29,13 @@
                         @Html.ActionLink("Home", "Index", "Home")
                     </li>
                     <li>
-                        @Html.ActionLink("Restaurants", "About", "Home")
+                        @Html.ActionLink("Restaurants", "Index", "Home")
                     </li>
                     <li>
                         @Html.ActionLink("Home made foods", "HomeMadeFood", "Home")
                     </li>
                     <li>
-                        @Html.ActionLink("Blogs", "About", "Home")
+                        @Html.ActionLink("Blogs", "Blogs", "Home")
                     </li>
                     <li>
                         @Html.ActionLink("Recipes", "About", "Home")
@@ -64,8 +64,8 @@
         <div class="content">
 
             <ul class="list-unstyled components" style="margin:0px">
-                <li style="display: inline; float:right; padding:10px;display: block"><i class="fas fa-user-plus"style="padding:8px"></i>@Html.ActionLink("Sign Up", "SignUp", "Home")</li>
-                <li style="display: inline; float:right; padding:10px;display:block;border-right: 1px solid #555;"><i class="fas fa-user"style="padding:8px"></i>@Html.ActionLink("Login", "Login", "Home")</li>
+                <li style="display: inline; float:right; padding:10px;display: block">@Html.ActionLink("Sign Up", "SignUp", "Home")</li>
+                <li style="display: inline; float:right; padding:10px;display:block;border-right: 1px solid #555;">@Html.ActionLink("Login", "Login", "Home")</li>
 
             </ul>
 
@@ -82,17 +82,24 @@
                         </div>
                         <div class="row">
                             <div class="columns">
-                                <h4>HOME</h4>
-                                <h4>RESTAURANTS</h4>
-                                <h4>HOME MADE FOODS</h4>
-                                <h4>BLOGS</h4>
-                                <h4>RECIPES</h4>
-                            </div>
-                            <div class="columns" style="padding-left:20px;">
-                                <h4>OFFERS</h4>
-                                <h4>RESERVATIONS</h4>
-                                <h4>CONTACT</h4>
+                                <ul>
+                                    <li>HOME</li>
+                                    <li>RESTAURANTS</li>
+                                    <li>HOME MADE FOODS</li>
+                                    <li>BLOGS</li>
+                                    <li>RECIPES</li>
+
+                                </ul>
                                 
+                            </div>
+                            <div class="columns" style="padding-left:0px;">
+                                <ul>
+                                    <li>OFFERS</li>
+                                    <li>RESERVATIONS</li>
+                                    <li>CONTACT</li>                            
+                                </ul>
+                                
+
                             </div>
                         </div>
                     </div>
