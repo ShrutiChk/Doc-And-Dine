@@ -8,3 +8,5 @@
 Doc_and_Dine/bin/Doc_and_Dine.dll
 Doc_and_Dine/bin/Doc_and_Dine.pdb
 Doc_and_Dine/Doc_and_Dine.csproj
+.vs/Doc_and_Dine/v15/Server/sqlite3/storage.ide-shm
+.vs/Doc_and_Dine/v15/Server/sqlite3/storage.ide-wal
