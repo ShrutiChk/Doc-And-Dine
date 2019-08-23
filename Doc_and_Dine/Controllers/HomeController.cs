@@ -31,6 +31,15 @@ namespace Doc_and_Dine.Controllers
 
             return View();
         }
+        public ActionResult SignUp()
+        {
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
 
     }
 }
