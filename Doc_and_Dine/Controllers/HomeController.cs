@@ -26,5 +26,11 @@ namespace Doc_and_Dine.Controllers
 
             return View();
         }
+        public ActionResult HomeMadeFood()
+        {
+
+            return View();
+        }
+
     }
 }
